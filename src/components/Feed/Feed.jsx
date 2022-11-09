@@ -11,9 +11,9 @@ export default function Feed() {
             <div className="user">
               <Avatar
                 imagem="https://images.pexels.com/photos/7499839/pexels-
-              photo-7499839.jpeg?
-              auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              temanho="grande" />
+                photo-7499839.jpeg?
+                auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              />
 
               <a href="/" className="user__name">
                 Atanazzio :D
@@ -45,10 +45,11 @@ export default function Feed() {
             <div className="post__status">
               <div className="user">
                 <Avatar
-                imagem="https://images.pexels.com/photos/7499839/pexels-
-                photo-7499839.jpeg?
-                auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                  tamanho="grande"
+                  imagem="https://images.pexels.
+                  com/photos/7499839/pexels-
+                  photo-7499839.jpeg?
+                  auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  tamanho="pequeno"
                 />
 
                 <span>
