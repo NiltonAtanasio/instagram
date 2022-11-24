@@ -2,6 +2,8 @@
   position: fixed;
   right: -100%;
   top: 0;
+  display: flex;
+  flex-direction: column;
   background-color: white;
   height: 100vh;
   width: 100%;
@@ -19,6 +21,25 @@
   margin-bottom: 10px;
 }
 
+.drawer__content {
+  padding: 10px 0;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.drawer__footer {
+  background-color: white;
+  padding: 5px;
+}
+
+.drawer__footer form{
+  display: flex;
+  flex-direction: column;
+}
+
+.drawer__footer form input {
+  margin-bottom: 5px;
+}
 .drawer__header button {
   background-color: transparent;
   padding: 0;

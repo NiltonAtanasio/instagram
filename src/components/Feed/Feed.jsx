@@ -2,7 +2,7 @@ import React from "react";
 
 import { Avatar } from "../Avatar";
 
-export default function Feed() {
+export default function Feed({ dados }) {
   return (
     <div className="container">
       <section className="feed">
