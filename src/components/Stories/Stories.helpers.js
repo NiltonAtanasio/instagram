@@ -1,1 +1,1 @@
-export const pegaStories = (users) => users.flatMap(({ stories }) => stories)
+export const pegaStories = (users) => users.flatMap(({ stories }) => stories);

@@ -4,7 +4,7 @@ import "./Avatar.css";
 
 const placeholder = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNZyzc-hsHAcgvM1_EGJuvGDcUnhwfza1E4w&usqp=CAU"
 
-export default function Avatar({ imagem = placeholder, selecionavel = false, tamanho = 'pequeno' }) {
+export default function Avatar({ imagem = placeholder, selecionavel = false, tamanho = 'normal' }) {
   const [ativo, setAtivo] = React.useState(false);
 
   function controlaClique() {

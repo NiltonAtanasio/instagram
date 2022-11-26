@@ -3,6 +3,7 @@
   overflow-y: auto;
   width: 100%;
   padding: 16px 8;
+  margin-top: 10px;
 }
 
 .stories__container {
